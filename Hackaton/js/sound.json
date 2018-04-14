@@ -1,0 +1,379 @@
+[{
+  "nameFr": "Swan bar",
+  "noise": "noisy",
+  "circle" : 1,
+  "category" : "bar",
+  "streetNumber": "25",
+  "postalCode": "1000",
+  "placeId": "abf99174-6ee3-4131-968a-bb9f2c983140",
+  "municipalityFr": "Bruxelles",
+  "street": "Place Saint-Géry",
+  "coordinates": [
+    "50.847681",
+    "4.347364"
+  ],
+  "deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048339",
+  "date": "2018-03-29T00:01:04",
+  "laeq15": 75
+},
+
+{
+  "nameFr": "Mezzo",
+  "noise": "noisy",
+  "circle" : 1,
+  "category" : "bar",
+  "streetNumber": "18",
+  "postalCode": "1000",
+  "placeId": "abf99174-6ee3-4131-968a-bb9f2c983141",
+  "municipalityFr": "Bruxelles",
+  "street": "Borgwal",
+  "coordinates": [
+    "50.847768",
+    "4.347681"
+  ],
+  "deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048338",
+  "date": "2018-03-29T00:01:04",
+  "laeq15": 67
+},
+
+{
+  "nameFr": "Café d'en face",
+  "noise": "noisy",
+  "circle" : 1,
+  "category" : "bar",
+  "streetNumber": "1",
+  "postalCode": "1000",
+  "placeId": "abf99174-6ee3-4131-968a-bb9f2c983142",
+  "municipalityFr": "Bruxelles",
+  "street": "Rue Saint-Géry",
+  "coordinates": [
+    "50.847638",
+    "4.347738"
+  ],
+  "deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048337",
+  "date": "2018-03-29T00:01:04",
+  "laeq15": 60
+},
+
+{
+  "nameFr": "Zebra",
+  "noise": "noisy",
+  "circle" : 1,
+  "category" : "bar",
+  "streetNumber": "33",
+  "postalCode": "1000",
+  "placeId": "abf99174-6ee3-4131-968a-bb9f2c983143",
+  "municipalityFr": "Bruxelles",
+  "street": "Place Saint-Géry",
+  "coordinates": [
+    "50.848050",
+    "4.347876"
+  ],
+  "deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048336",
+  "date": "2018-03-29T00:01:04",
+  "laeq15": 72
+},
+
+{
+  "nameFr": "Mappa Mundo",
+  "noise": "noisy",
+  "circle" : 1,
+  "category" : "bar",
+  "streetNumber": "2",
+  "postalCode": "1000",
+  "placeId": "abf99174-6ee3-4131-968a-bb9f2c983144",
+  "municipalityFr": "Bruxelles",
+  "street": "Rue du pont de la carpe",
+  "coordinates": [
+    "50.848357",
+    "4.347508"
+  ],
+  "deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048335",
+  "date": "2018-03-29T00:01:04",
+  "laeq15": 68
+},
+
+{
+  "nameFr": "Le café du commerce équitable",
+  "noise": "noisy",
+  "circle" : 1,
+  "category" : "restaurant",
+  "streetNumber": "7",
+  "postalCode": "1000",
+  "placeId": "abf99174-6ee3-4131-968a-bb9f2c983145",
+  "municipalityFr": "Bruxelles",
+  "street": "Rue pletinckx",
+  "coordinates": [
+    "50.848051",
+    "4.346416"
+  ],
+  "deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048334",
+  "date": "2018-03-29T00:01:04",
+  "laeq15": 74
+},
+
+{
+  "nameFr": "Gecko cocktail bar",
+  "noise": "noisy",
+  "circle" : 1,
+  "category" : "bar",
+  "streetNumber": "16",
+  "postalCode": "1000",
+  "placeId": "abf99174-6ee3-4131-968a-bb9f2c983146",
+  "municipalityFr": "Bruxelles",
+  "street": "Place Saint-Géry",
+  "coordinates": [
+    "50.848120",
+    "4.346718"
+  ],
+  "deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048333",
+  "date": "2018-03-29T00:01:04",
+  "laeq15": 80
+},
+
+{
+  "nameFr": "Be my stoemp",
+  "noise": "noisy",
+  "circle" : 1,
+  "category" : "restaurant",
+  "streetNumber": "1",
+  "postalCode": "1000",
+  "placeId": "abf99174-6ee3-4131-968a-bb9f2c983147",
+  "municipalityFr": "Bruxelles",
+  "street": "Place Saint-Géry",
+  "coordinates": [
+    "50.848012",
+    "4.347461"
+  ],
+  "deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048332",
+  "date": "2018-03-29T00:01:04",
+  "laeq15": 58
+},
+
+{
+  "nameFr": "Fanny Thai",
+  "noise": "noisy",
+  "circle" : 1,
+  "category" : "restaurant",
+  "streetNumber": "36",
+  "postalCode": "1000",
+  "placeId": "abf99174-6ee3-4131-968a-bb9f2c983148",
+  "municipalityFr": "Bruxelles",
+  "street": "Rue Jules Van Praet",
+  "coordinates": [
+    "50.848117",
+    "4.347962"
+  ],
+  "deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048331",
+  "date": "2018-03-29T00:01:04",
+  "laeq15": 45
+},
+
+{
+  "nameFr": "Restaurante de fuad",
+  "noise": "noisy",
+  "circle" : 1,
+  "category" : "restaurant",
+  "streetNumber": "22",
+  "postalCode": "1000",
+  "placeId": "abf99174-6ee3-4131-968a-bb9f2c983149",
+  "municipalityFr": "Bruxelles",
+  "street": "Place Saint-Géry",
+  "coordinates": [
+    "50.847713",
+    "4.346835"
+  ],
+  "deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048330",
+  "date": "2018-03-29T00:01:04",
+  "laeq15": 52
+},
+
+{
+"nameFr": "Zodiak",
+"noise": "noisy",
+"circle" : 2,
+"category": "nightclub",
+"streetNumber": "10",
+"postalCode": "1000",
+"placeId": "abf99174-6ee3-4131-968a-bb9f2c983150",
+"municipalityFr": "Bruxelles",
+"street": "Rue du Marché aux Fromages",
+"coordinates": [
+  "50.845903",
+  "4.353100"
+],
+"deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048329",
+"date": "2018-03-29T00:01:04",
+"laeq15": 107
+},
+{
+"nameFr": "Little Delirium",
+"category": "bar",
+"noise": "noisy",
+"circle" : 2,
+"streetNumber": "9",
+"postalCode": "1000",
+"placeId": "abf99174-6ee3-4131-968a-bb9f2c983151",
+"municipalityFr": "Bruxelles",
+"street": "Rue du Marché aux Fromages",
+"coordinates": [
+  "50.845767",
+  "4.352865"
+],
+"deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048328",
+"date": "2018-03-29T00:01:04",
+"laeq15": 75
+},
+
+{
+ "nameFr": "Phenix",
+ "category": "bar",
+ "noise": "noisy",
+ "circle" : 2,
+"streetNumber": "20",
+"postalCode": "1000",
+"placeId": "abf99174-6ee3-4131-968a-bb9f2c983152",
+"municipalityFr": "Bruxelles",
+"street": "Rue du Marche aux Fromages",
+"coordinates": [
+  "50.845760",
+  "4.353373"
+],
+"deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048327",
+"date": "2018-03-29T00:01:04",
+"laeq15": 88
+},
+
+{
+"nameFr": "Plaka",
+"category": "restaurant",
+"noise": "noisy",
+"circle" : 2,
+"streetNumber": "6",
+"postalCode": "1000",
+"placeId": "abf99174-6ee3-4131-968a-bb9f2c983153",
+"municipalityFr": "Bruxelles",
+"street": "Rue du Marché aux Fromages",
+"coordinates": [
+  "50.845953",
+  "4.352979"
+],
+"deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048326",
+"date": "2018-03-29T00:01:04",
+"laeq15": 50
+},
+
+{
+"nameFr": "Goupil Le Fol",
+"category": "bar",
+"noise": "noisy",
+"circle" : 2,
+"streetNumber": "22",
+"postalCode": "1000",
+"placeId": "abf99174-6ee3-4131-968a-bb9f2c983154",
+"municipalityFr": "Bruxelles",
+"street": "Rue de la Violette",
+"coordinates": [
+"50.845365",
+"4.352346"
+],
+"deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048325",
+"date": "2018-03-29T00:01:04",
+"laeq15": 60
+},
+
+{
+"nameFr": "Aux Pavés de Bruxelles",
+"category": "restaurant",
+"noise": "noisy",
+"circle" : 2,
+"streetNumber": "1",
+"postalCode": "1000",
+"placeId": "abf99174-6ee3-4131-968a-bb9f2c983155",
+"municipalityFr": "Bruxelles",
+"street": "Rue du Marché aux Fromages",
+"coordinates": [
+"50.845851",
+"4.352652"
+],
+"deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048324",
+"date": "2018-03-29T00:01:04",
+"laeq15": 52
+},
+
+{
+"nameFr": "Hyperion e-sports bar",
+"category": "bar",
+"noise": "noisy",
+"circle" : 2,
+"streetNumber": "32",
+"postalCode": "1000",
+"placeId": "abf99174-6ee3-4131-968a-bb9f2c983156",
+"municipalityFr": "Bruxelles",
+"street": "Rue de la Violette",
+"coordinates": [
+"50.845139",
+"4.352605"
+],
+"deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048323",
+"date": "2018-03-29T00:01:04",
+"laeq15": 89
+},
+
+{
+  "nameFr": "Cathédrale Saint-Michel",
+  "category" : "touristic site",
+  "noise": "calm",
+  "circle" : 3,
+  "streetNumber": "",
+  "postalCode": "1000",
+  "placeId": "abf99174-6ee3-4131-968a-bb9f2c983157",
+  "municipalityFr": "Bruxelles",
+  "street": "Place Sainte-Gudule",
+  "coordinates": [
+    "50.847844",
+    "4.360092"
+  ],
+  "deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048322",
+  "date": "2018-03-29T00:01:04",
+  "laeq15": 35
+},
+
+{
+  "nameFr": "Pasta Divina",
+  "category" : "restaurant",
+  "noise": "calm",
+  "circle" : 4,
+  "streetNumber": "16",
+  "postalCode": "1000",
+  "placeId": "abf99174-6ee3-4131-968a-bb9f2c983158",
+  "municipalityFr": "Bruxelles",
+  "street": "Rue de la montagne",
+  "coordinates": [
+    "50.846973",
+    "4.354993"
+  ],
+  "deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048321",
+  "date": "2018-03-29T00:01:04",
+  "laeq15": 42
+},
+
+{
+  "nameFr": "Le faucon brasserie",
+  "category" : "restaurant",
+  "noise": "calm",
+  "circle" : 4,
+  "streetNumber": "12",
+  "postalCode": "1000",
+  "placeId": "abf99174-6ee3-4131-968a-bb9f2c983159",
+  "municipalityFr": "Bruxelles",
+  "street": "Rue de la montagne",
+  "coordinates": [
+    "48.895867"
+    "2.258918",
+  ],
+  "deviceId": "b7072dd6-444a-4fd9-b75c-dc215a048320",
+  "date": "2018-03-29T00:01:04",
+  "laeq15": 40
+}
+]
