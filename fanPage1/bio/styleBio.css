@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.carriere {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.jumbotron p {
+  font-size: 14px;
+  font-family: 'Libre Baskerville'
+}
+
+.synopsis {
+  margin-top: 10px;
+}
+
+.bio {
+  margin-top: 50px;
+}
+
+.slider {
+  width: 800px;
+  align-self: center;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.colonne2 {
+  column-count: 2;
+}
+
+article {
+  font-family: 'Libre Baskerville';
+}
+
+.colonne3 {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.image {
+  padding-right:30px;
+  padding-left: 30px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Libre Franklin';
+}
+
+.carriere  {
+  text-align: center;
+}
+
+.colonne {
+  column-count: 3;
+  text-align: left;
+}
+
+/* article {
+  margin-right: 50px;
+  margin-left: 50px;
+} */
+
+/* .slick-next {
+  margin-left: 100px;
+} */
+
+/* .slick-prev {
+  padding-right: 30px;
+} */
