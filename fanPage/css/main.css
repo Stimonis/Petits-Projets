@@ -1,0 +1,523 @@
+/*global stuff*/
+#wholePage{
+  background: url("https://www.tarantino.info/uwall.jpg");
+  background-attachment: fixed;
+}
+#pageElements{
+  background-color: white;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    height: 2000px;
+}
+
+/*slick*/
+.slick-prev,
+.slick-next{
+  visibility: hidden;
+}
+
+.carriere  {
+  text-align: center;
+}
+.image {
+  padding-right:30px;
+  padding-left: 30px;
+}
+/* .colonne3 {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.colonne2 {
+  column-count: 2;
+}
+.colonne {
+  column-count: 3;
+  text-align: left;
+}
+ */
+
+
+ /*contactform*/
+.centered {
+  margin: 0 auto;
+  text-align: center;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.bottom-line {
+  border-bottom: 2px solid #c3c3c3;
+}
+::-webkit-resizer {
+  display: none;
+}
+
+.arrow-up {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 1px;
+  width: 0;
+  height: 0;
+  margin-top: 10px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #f7f7f7;
+}
+form#contact {
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 2px solid #c3c3c3;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+
+}
+.form-control {
+  box-shadow: none;
+  border-radius: 0;
+  background-color: white;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+outline: 1px solid #b6bbc4;
+}
+textarea#message {
+  min-height: 100px;
+  resize: vertical;
+  overflow: hidden;
+  border-bottom: 0px;
+}
+button#send {
+  text-transform: uppercase;
+  border: 2px solid black;
+  margin-top: 20px;
+  letter-spacing: 4px;
+  width: 100%;
+  margin:0px;
+}
+
+
+/* Doing stuff */
+h1{
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+
+h3{
+    font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+
+#hearYou{
+  border: 1px solid black;
+}
+
+h1:hover{
+  text-decoration: underline;
+}
+
+p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.nav{
+  display: inline-flex;
+}
+
+.nav a{
+  padding: 0 10px;
+  color:#322b2b;
+  transition-duration: 0.2s;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+.nav a:hover{
+  color:black;
+}
+
+.title{
+  padding-top:1em;
+  margin: 0;
+}
+
+.subheading{
+  font-size: 13px;
+}
+
+article{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#countdown{
+  text-align: center;
+}
+
+hr{
+  background-color:grey;
+  width: 30%;
+}
+
+input,textarea{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.goodieOne{
+  width: 200px;
+  height: 200px;
+  transition-duration: 0.2s;
+}
+.goodieOne:hover{
+  opacity: 0.5;
+}
+
+.goodieTwo{
+  width: 200px;
+  height: 200px;
+  transition-duration: 0.2s;
+}
+.goodieTwo:hover{
+  opacity: 0.5;
+}
+
+.goodieThree{
+  width: 200px;
+  height: 200px;
+  transition-duration: 0.2s;
+}
+.goodieThree:hover{
+  opacity: 0.5;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    z-index: 2000;
+
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*testing*/
+
+
+
+/*SLIDEJS*/
+#slides {
+  display: none
+}
+
+#slides .slidesjs-navigation {
+  margin-top:5px;
+}
+
+a.slidesjs-next,
+a.slidesjs-previous,
+a.slidesjs-play,
+a.slidesjs-stop {
+  background-image: url(../img/btns-next-prev.png);
+  background-repeat: no-repeat;
+  display:block;
+  width:12px;
+  height:18px;
+  overflow: hidden;
+  text-indent: -9999px;
+  float: left;
+  margin-right:5px;
+}
+
+a.slidesjs-next {
+  margin-right:10px;
+  background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+  background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+  background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+  background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+  width:15px;
+  background-position: -25px 0;
+}
+
+a:hover.slidesjs-play {
+  background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+  width:18px;
+  background-position: -41px 0;
+}
+
+a:hover.slidesjs-stop {
+  background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+  margin: 7px 0 0;
+  float: right;
+  list-style: none;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(../img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+  color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+  color: #9e2020
+}
+
+.navbar {
+  overflow: hidden
+}
+/*
+@media (max-width: 767px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .container {
+    width: auto
+  }
+} */
+
+/* For smartphones */
+@media (max-width: 480px) {
+  .container {
+    width: auto;
+  }
+  #back-to-top {
+    visibility: hidden;
+  }
+  #wholePage{
+    padding:0;
+    overflow: hidden;
+  }
+
+}
+
+/* For smaller displays like laptops
+@media (min-width: 768px) and (max-width: 979px) {
+  .container {
+    width: 724px
+  }
+} */
+
+/* For larger displays
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px
+  }
+} */
+
+/* FOLLOW ME BUTTON */
+#welcomeButton{
+  font: 700 14px/1 Montserrat, sans-serif;
+  letter-spacing: 0.125em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn {
+  background: none;
+  border: 2px solid;
+  border-bottom-width: 4px;
+  font: inherit;
+  letter-spacing: inherit;
+  margin: 1em;
+  padding: 1em 2em;
+  text-transform: inherit;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+.btn-5 {
+  color: #7cf07f;
+}
+.btn-5:hover {
+  -webkit-animation: blinds 0.75s linear forwards;
+          animation: blinds 0.75s linear forwards;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(25%, #7cf07f), color-stop(25%, transparent)) 0 0/0.5em 0.5em, -webkit-gradient(linear, left bottom, left top, color-stop(50%, #88d6f3), color-stop(50%, transparent)) 0 0/1em 1em;
+  background: linear-gradient(0deg, #7cf07f 25%, transparent 25%) 0 0/0.5em 0.5em, linear-gradient(0deg, #88d6f3 50%, transparent 50%) 0 0/1em 1em;
+  color: #f07ced;
+}
+
+/* END OF FOLLOW ME BUTTON */
+
+@-webkit-keyframes blinds {
+  100% {
+    background-position: 0 0, 0 -3em;
+    background-size: 0 0, 1em 6em;
+  }
+}
+
+@keyframes blinds {
+  100% {
+    background-position: 0 0, 0 -3em;
+    background-size: 0 0, 1em 6em;
+  }
+}
+
+#welcome{
+  font-family: 'IM Fell English', serif;
+  color: #7cf07f;
+  /* opacity: 0.6; */
+  padding-top:200px;
+}
+
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+  overflow-x: hidden;
+}
