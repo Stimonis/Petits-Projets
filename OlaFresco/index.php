@@ -1,0 +1,1 @@
+<?php include 'Controller/index_control.php';?>
